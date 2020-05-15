@@ -1,3 +1,16 @@
+html{
+    box-sizing: border-box;
+}
+body{margin:0;}
+
+@media only screen and (max-width: 680px) { 
+    .desktop{ display: none;}
+}
+
+@media screen and (min-width: 768px) {  
+    .mobile{display: none;}
+}
+
 #wrapper{
 	display: flex;
 	flex-flow: column nowrap;}
@@ -15,7 +28,39 @@
 				text-decoration: none; color:black;
 		&:hover{text-decoration:underline;}
 	}
+    #cclogo{
+        width:30%;
+        @media (max-width: 767px){
+            width:58px;
+        }
+    }
+    #collapsableMenu{
+        display: flex;
+        width:90%;
+        align-items:center;
 
+        @media (min-width: 767px){
+            height: 58px;
+        }
+        @media (max-width: 767px){
+            display: none;
+            width:100%;
+            flex-flow:column;
+            position: fixed;
+            z-index: 1;
+            top:78px;
+            background-color: #fff;
+            padding-left:3%;
+            font-size: 1.4rem;
+            align-items:flex-start;
+        }
+    }
+    @media (max-width: 767px){
+        justify-content:space-between;
+        padding: 1% 5%;
+        width: auto;
+        align-items:center;
+    }
 }
 #lander{
 	display: flex;
@@ -29,7 +74,6 @@
     background-size: cover;
     height: 100vh;
     width: 100%;	
-    padding:2%;
 
     h1{
         position:relative;

@@ -1,3 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@media only screen and (max-width: 680px) {
+  .desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+}
 #wrapper {
   display: flex;
   flex-flow: column nowrap;
@@ -18,6 +36,46 @@
 #topnav a:hover {
   text-decoration: underline;
 }
+#topnav #cclogo {
+  width: 30%;
+}
+@media (max-width: 767px) {
+  #topnav #cclogo {
+    width: 58px;
+  }
+}
+#topnav #collapsableMenu {
+  display: flex;
+  width: 90%;
+  align-items: center;
+}
+@media (min-width: 767px) {
+  #topnav #collapsableMenu {
+    height: 58px;
+  }
+}
+@media (max-width: 767px) {
+  #topnav #collapsableMenu {
+    display: none;
+    width: 100%;
+    flex-flow: column;
+    position: fixed;
+    z-index: 1;
+    top: 78px;
+    background-color: #fff;
+    padding-left: 3%;
+    font-size: 1.4rem;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 767px) {
+  #topnav {
+    justify-content: space-between;
+    padding: 1% 5%;
+    width: auto;
+    align-items: center;
+  }
+}
 
 #lander {
   display: flex;
@@ -31,7 +89,6 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
-  padding: 2%;
 }
 #lander h1 {
   position: relative;
