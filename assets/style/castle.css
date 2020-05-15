@@ -118,8 +118,14 @@ body {
   top: 20%;
 }
 @media (max-width: 767px) {
+  #lander h2 {
+    font-size: 1.02rem;
+  }
+}
+@media (max-width: 767px) {
   #lander {
     background: url("./img/castlefridge.jpg") center no-repeat cover;
+    height: auto;
   }
   #lander h1 {
     font-size: 2.5rem;

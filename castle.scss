@@ -98,10 +98,16 @@ body{margin:0;}
     	padding:1%;
     	position:relative;
     	top:20%;
+
+        @media (max-width: 767px) {
+            font-size: 1.02rem;    
+        }
 	}
         @media (max-width: 767px) {
             background: url("./img/castlefridge.jpg") center no-repeat cover;
+            height: auto;
             h1{font-size:2.5rem;}
+
         
         }
         	
