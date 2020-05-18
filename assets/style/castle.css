@@ -87,7 +87,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
   width: 100%;
 }
 #lander h1 {
@@ -125,7 +124,6 @@ body {
 @media (max-width: 767px) {
   #lander {
     background: url("./img/castlefridge.jpg") center no-repeat cover;
-    height: auto;
   }
   #lander h1 {
     font-size: 2.5rem;
