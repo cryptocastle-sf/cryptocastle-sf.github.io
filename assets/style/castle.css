@@ -169,6 +169,34 @@ body {
   width: 100%;
 }
 
+#press {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#press h1 {
+  text-align: center;
+  background-color: white;
+  border: 3px solid black;
+  margin: 3%;
+  padding: 1%;
+}
+#press #plist {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  align-content: center;
+  justify-content: center;
+}
+#press #plist a {
+  width: 15%;
+  height: auto;
+  margin: 2%;
+}
+#press #plist a img {
+  width: 100%;
+}
+
 footer {
   border-top: 3px solid black;
   padding: 1%;
