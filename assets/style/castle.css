@@ -163,6 +163,7 @@ body {
 #companies #clist a {
   width: 15%;
   height: auto;
+  margin: 2%;
 }
 #companies #clist a img {
   width: 100%;
