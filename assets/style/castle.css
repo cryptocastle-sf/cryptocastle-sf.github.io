@@ -16,6 +16,10 @@ body {
     display: none;
   }
 }
+.half {
+  width: 50%;
+}
+
 #wrapper {
   display: flex;
   flex-flow: column nowrap;

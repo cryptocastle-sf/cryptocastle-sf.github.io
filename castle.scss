@@ -10,7 +10,12 @@ body{margin:0;}
 @media screen and (min-width: 768px) {  
     .mobile{display: none;}
 }
-
+.half{
+    width: 50%;
+}
+.gold{
+    background-color: #fbb040;
+}
 #wrapper{
 	display: flex;
 	flex-flow: column nowrap;}
