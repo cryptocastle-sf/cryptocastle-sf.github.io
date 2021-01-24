@@ -149,6 +149,22 @@ body {
   top: 20%;
 }
 
+#aboutMain {
+  width: 80%;
+  background-color: white;
+  border: 3px solid black;
+  margin: 3% auto;
+  padding: 1%;
+  position: relative;
+  top: 20%;
+  display: flex;
+  flex-flow: row wrap;
+}
+#aboutMain p {
+  margin: 2%;
+  padding: 1%;
+}
+
 #moatmain {
   width: 80%;
   margin: auto;
