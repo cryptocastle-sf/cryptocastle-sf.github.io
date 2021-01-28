@@ -165,6 +165,19 @@ body {
   padding: 1%;
 }
 
+#videoMain {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+#videoMain .videobox {
+  margin: 1%;
+}
+#videoMain .videobox h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+}
+
 #moatmain {
   width: 80%;
   margin: auto;

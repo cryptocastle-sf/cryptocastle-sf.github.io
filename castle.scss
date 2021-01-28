@@ -145,6 +145,17 @@ body{margin:0;}
 
 
 }
+#videoMain{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    .videobox{
+        margin:1%;
+        h2{font-family: "Source Sans Pro", sans-serif;
+            font-weight: 300;
+        }
+    }
+}
 #moatmain{
     width: 80%;
 margin: auto;
