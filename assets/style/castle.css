@@ -169,6 +169,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  text-align: center;
 }
 #videoMain .videobox {
   margin: 1%;
@@ -176,6 +177,7 @@ body {
 #videoMain .videobox h2 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
+  font-size: 1.5vw;
 }
 
 #moatmain {
