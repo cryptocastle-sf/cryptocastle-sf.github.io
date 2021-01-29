@@ -150,12 +150,22 @@ body{margin:0;}
     flex-flow: row wrap;
     justify-content:space-around;
     text-align: center;
+    @media screen and (max-width: 768px) {  
+    flex-flow: column;
+    }
     .videobox{
         margin:1%;
         h2{font-family: "Source Sans Pro", sans-serif;
             font-weight: 300;
             font-size:1.5vw; 
 
+        }
+        @media screen and (max-width: 768px) {
+            text-align: center;
+            h2{font-size: 3.8vw};
+            iframe{
+            width: 80vw;
+            height: auto;}
         }
     }
 }

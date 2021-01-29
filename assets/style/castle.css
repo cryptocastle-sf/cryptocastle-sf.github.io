@@ -171,6 +171,11 @@ body {
   justify-content: space-around;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  #videoMain {
+    flex-flow: column;
+  }
+}
 #videoMain .videobox {
   margin: 1%;
 }
@@ -178,6 +183,18 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 1.5vw;
+}
+@media screen and (max-width: 768px) {
+  #videoMain .videobox {
+    text-align: center;
+  }
+  #videoMain .videobox h2 {
+    font-size: 3.8vw;
+  }
+  #videoMain .videobox iframe {
+    width: 80vw;
+    height: auto;
+  }
 }
 
 #moatmain {
