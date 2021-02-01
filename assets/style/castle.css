@@ -218,6 +218,11 @@ body {
 #moatmain #moattextbox h1 {
   font-weight: 400;
 }
+@media screen and (max-width: 768px) {
+  #moatmain #moattextbox {
+    width: auto;
+  }
+}
 #moatmain #scoop {
   color: black;
   background-color: white;

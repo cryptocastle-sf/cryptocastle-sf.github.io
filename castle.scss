@@ -187,7 +187,11 @@ body{margin:0;}
     h1{font-weight:400;}
 
     background-color:rgba(251, 176, 64, 0.80);
-    padding:2%}
+    padding:2%;
+    @media screen and (max-width: 768px) {
+        width:auto;
+    }
+  }
     #scoop{
         color:black;
         background-color: white;
