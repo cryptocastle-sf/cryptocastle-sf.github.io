@@ -248,6 +248,41 @@ body {
   padding: 2%;
 }
 
+#landmain {
+  margin: auto;
+  background-color: white;
+  position: relative;
+  top: 20%;
+  flex-flow: row wrap;
+  display: flex;
+  background: url("/assets/img/mist.jpg") fixed no-repeat center center/cover;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding: 2% 10%;
+  justify-content: space-around;
+}
+#landmain #landtextbox {
+  background-color: rgba(10, 128, 24, 0.39);
+  padding: 2%;
+}
+#landmain #landtextbox h1 {
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  #landmain #landtextbox {
+    width: auto;
+  }
+}
+#landmain #scoop {
+  color: black;
+  background-color: white;
+  border: 3px solid gray;
+  position: sticky;
+  height: fit-content;
+  padding: 2%;
+}
+
 #projects {
   display: flex;
   flex-flow: column nowrap;
