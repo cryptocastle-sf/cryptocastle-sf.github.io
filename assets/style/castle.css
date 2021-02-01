@@ -248,6 +248,38 @@ body {
   padding: 2%;
 }
 
+#projects {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#projects h1 {
+  text-align: center;
+  background-color: white;
+  border: 3px solid black;
+  margin: 3%;
+  padding: 1%;
+}
+#projects #plist {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  align-content: center;
+  justify-content: center;
+}
+#projects #plist a {
+  width: 15%;
+  height: auto;
+  margin: 2%;
+  font-size: 10vw;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+#projects #plist a img {
+  width: 100%;
+}
+
 #companies {
   display: flex;
   flex-flow: column nowrap;
