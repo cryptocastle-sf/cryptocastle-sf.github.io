@@ -283,6 +283,111 @@ body {
   padding: 2%;
 }
 
+#watermain {
+  margin: auto;
+  background-color: white;
+  position: relative;
+  top: 20%;
+  flex-flow: row wrap;
+  display: flex;
+  background: url("/assets/img/mist.jpg") fixed no-repeat center center/cover;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding: 2% 10%;
+  justify-content: space-around;
+}
+#watermain #watertextbox {
+  background-color: rgba(14, 176, 239, 0.39);
+  padding: 2%;
+}
+#watermain #watertextbox h1 {
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  #watermain #watertextbox {
+    width: auto;
+  }
+}
+#watermain #scoop {
+  color: black;
+  background-color: white;
+  border: 3px solid gray;
+  position: sticky;
+  height: fit-content;
+  padding: 2%;
+}
+
+#airmain {
+  margin: auto;
+  background-color: white;
+  position: relative;
+  top: 20%;
+  flex-flow: row wrap;
+  display: flex;
+  background: url("/assets/img/mist.jpg") fixed no-repeat center center/cover;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding: 2% 10%;
+  justify-content: space-around;
+}
+#airmain #airtextbox {
+  background-color: #00000026;
+  padding: 2%;
+}
+#airmain #airtextbox h1 {
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  #airmain #airtextbox {
+    width: auto;
+  }
+}
+#airmain #scoop {
+  color: black;
+  background-color: white;
+  border: 3px solid gray;
+  position: sticky;
+  height: fit-content;
+  padding: 2%;
+}
+
+#firemain {
+  margin: auto;
+  background-color: white;
+  position: relative;
+  top: 20%;
+  flex-flow: row wrap;
+  display: flex;
+  background: url("/assets/img/mist.jpg") fixed no-repeat center center/cover;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding: 2% 10%;
+  justify-content: space-around;
+}
+#firemain #firetextbox {
+  background-color: #b222228c;
+  padding: 2%;
+}
+#firemain #firetextbox h1 {
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  #firemain #firetextbox {
+    width: auto;
+  }
+}
+#firemain #scoop {
+  color: black;
+  background-color: white;
+  border: 3px solid gray;
+  position: sticky;
+  height: fit-content;
+  padding: 2%;
+}
+
 #projects {
   display: flex;
   flex-flow: column nowrap;

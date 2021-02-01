@@ -242,6 +242,101 @@ body{margin:0;}
     }
 }
 
+#watermain {
+  margin: auto;
+  background-color: white;
+  position: relative;
+  top: 20%;
+  flex-flow: row wrap;
+  display: flex;
+  background: url("/assets/img/mist.jpg") fixed no-repeat center center/cover;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding: 2% 10%;
+  justify-content:space-around;
+
+  #watertextbox{
+    h1{font-weight:400;}
+    background-color:rgb(14 176 239 / 39%);
+    padding:2%;
+    @media screen and (max-width: 768px) {
+        width:auto;
+    }
+  }
+    #scoop{
+        color:black;
+        background-color: white;
+        border:3px solid gray;
+        position:sticky;
+        height: fit-content;
+        padding:2%;
+    }
+}
+#airmain {
+  margin: auto;
+  background-color: white;
+  position: relative;
+  top: 20%;
+  flex-flow: row wrap;
+  display: flex;
+  background: url("/assets/img/mist.jpg") fixed no-repeat center center/cover;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding: 2% 10%;
+  justify-content:space-around;
+
+  #airtextbox{
+    background-color: #00000026;
+    h1{font-weight:400;}
+
+    padding:2%;
+    @media screen and (max-width: 768px) {
+        width:auto;
+    }
+  }
+    #scoop{
+        color:black;
+        background-color: white;
+        border:3px solid gray;
+        position:sticky;
+        height: fit-content;
+        padding:2%;
+    }
+}
+#firemain {
+  margin: auto;
+  background-color: white;
+  position: relative;
+  top: 20%;
+  flex-flow: row wrap;
+  display: flex;
+  background: url("/assets/img/mist.jpg") fixed no-repeat center center/cover;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding: 2% 10%;
+  justify-content:space-around;
+
+  #firetextbox{
+    background-color: #b222228c;
+    h1{font-weight:400;}
+
+    padding:2%;
+    @media screen and (max-width: 768px) {
+        width:auto;
+    }
+  }
+    #scoop{
+        color:black;
+        background-color: white;
+        border:3px solid gray;
+        position:sticky;
+        height: fit-content;
+        padding:2%;
+    }
+}
 
 #projects{
     display: flex;
