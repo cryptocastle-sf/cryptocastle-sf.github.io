@@ -160,9 +160,25 @@ body {
   display: flex;
   flex-flow: row wrap;
 }
+@media screen and (max-width: 768px) {
+  #aboutMain #abouttext {
+    width: auto;
+  }
+}
 #aboutMain p {
   margin: 2%;
   padding: 1%;
+}
+#aboutMain #firstnight {
+  width: 40vw;
+  height: 54vw;
+}
+@media (max-width: 767px) {
+  #aboutMain #firstnight {
+    order: -1;
+    width: 80vw;
+    height: 108vw;
+  }
 }
 
 #videoMain {

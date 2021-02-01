@@ -139,11 +139,20 @@ body{margin:0;}
     top:20%;
     display: flex;
     flex-flow: row wrap;
+    #abouttext{
+        @media screen and (max-width: 768px) {
+        width:auto;
+        }
+    }
     p{ margin: 2%;
 
         padding: 1%;}
-
-
+    #firstnight{width: 40vw; height: 54vw;
+    @media (max-width: 767px) {
+        order:-1;
+        width:80vw;
+        height:108vw;
+    }}
 }
 #videoMain{
     display: flex;
