@@ -388,6 +388,15 @@ body {
   padding: 2%;
 }
 
+#cryptohood {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
 #projects {
   display: flex;
   flex-flow: column nowrap;
