@@ -1,91 +1,75 @@
 html {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-  margin: 0;
-}
+  margin: 0; }
+
+#ccllogo {
+  width: 30%; }
+  @media (max-width: 767px) {
+    #ccllogo {
+      width: 58px; } }
 
 @media only screen and (max-width: 680px) {
   .desktop {
-    display: none;
-  }
-}
+    display: none; } }
 @media screen and (min-width: 768px) {
   .mobile {
-    display: none;
-  }
-}
+    display: none; } }
 .half {
-  width: 50%;
-}
+  width: 50%; }
 
 .gold {
-  background-color: #fbb040;
-}
+  background-color: #fbb040; }
 
 #wrapper {
   display: flex;
-  flex-flow: column nowrap;
-}
+  flex-flow: column nowrap; }
 
 #topnav {
   display: flex;
   border-bottom: 3px solid #000;
   width: 100vw;
-  justify-content: space-around;
-}
-#topnav a {
-  width: 10%;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-}
-#topnav a:hover {
-  text-decoration: underline;
-}
-#topnav #cclogo {
-  width: 30%;
-}
-@media (max-width: 767px) {
+  justify-content: space-around; }
+  #topnav a {
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    color: black; }
+    #topnav a:hover {
+      text-decoration: underline; }
   #topnav #cclogo {
-    width: 58px;
-  }
-}
-#topnav #collapsableMenu {
-  display: flex;
-  width: 90%;
-  align-items: center;
-}
-@media (min-width: 767px) {
+    width: 30%; }
+    @media (max-width: 767px) {
+      #topnav #cclogo {
+        width: 58px; } }
   #topnav #collapsableMenu {
-    height: 58px;
-  }
-}
-@media (max-width: 767px) {
-  #topnav #collapsableMenu {
-    display: none;
-    width: 100%;
-    flex-flow: column;
-    position: fixed;
-    z-index: 1;
-    top: 78px;
-    background-color: #fff;
-    padding-left: 3%;
-    font-size: 1.4rem;
-    align-items: flex-start;
-  }
-}
-@media (max-width: 767px) {
-  #topnav {
-    justify-content: space-between;
-    padding: 1% 5%;
-    width: auto;
-    align-items: center;
-  }
-}
+    display: flex;
+    width: 90%;
+    align-items: center; }
+    @media (min-width: 767px) {
+      #topnav #collapsableMenu {
+        height: 58px; } }
+    @media (max-width: 767px) {
+      #topnav #collapsableMenu {
+        display: none;
+        width: 100%;
+        flex-flow: column;
+        position: fixed;
+        z-index: 1;
+        top: 78px;
+        background-color: #fff;
+        padding-left: 3%;
+        font-size: 1.4rem;
+        align-items: flex-start; } }
+  @media (max-width: 767px) {
+    #topnav {
+      justify-content: space-between;
+      padding: 1% 5%;
+      width: auto;
+      align-items: center; } }
 
-#lander {
+#lander, #adjudicators {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -95,48 +79,43 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100%;
-}
-#lander h1 {
-  position: relative;
-  top: 20%;
-  text-align: center;
-  display: block;
-  font-size: 76px;
-  margin: 2% 0 2% 0;
-  color: #000;
-  background-color: #fff;
-  padding: 4px;
-  box-shadow: 8px 7px #000;
-  border: 2px solid black;
-  font-weight: 300;
-}
-@media (max-width: 767px) {
-  #lander h1 {
-    font-size: 30px;
-  }
-}
-#lander h2 {
-  background-color: white;
-  border: 3px solid black;
-  margin: 3%;
-  padding: 1%;
-  position: relative;
-  top: 20%;
-}
-@media (max-width: 767px) {
-  #lander h2 {
-    font-size: 1.02rem;
-  }
-}
-@media (max-width: 767px) {
-  #lander {
-    background: url("./img/castlefridge.jpg") center no-repeat cover;
-  }
-  #lander h1 {
-    font-size: 2.5rem;
-  }
-}
+  width: 100%; }
+  #lander #ccllogo, #adjudicators #ccllogo {
+    width: 30%; }
+    @media (max-width: 767px) {
+      #lander #ccllogo, #adjudicators #ccllogo {
+        width: 58px; } }
+  #lander h1, #adjudicators h1 {
+    position: relative;
+    top: 20%;
+    text-align: center;
+    display: block;
+    font-size: 76px;
+    margin: 2% 0 2% 0;
+    color: #000;
+    background-color: #fff;
+    padding: 4px;
+    box-shadow: 8px 7px #000;
+    border: 2px solid black;
+    font-weight: 300; }
+    @media (max-width: 767px) {
+      #lander h1, #adjudicators h1 {
+        font-size: 30px; } }
+  #lander h2, #adjudicators h2 {
+    background-color: white;
+    border: 3px solid black;
+    margin: 3%;
+    padding: 1%;
+    position: relative;
+    top: 20%; }
+    @media (max-width: 767px) {
+      #lander h2, #adjudicators h2 {
+        font-size: 1.02rem; } }
+  @media (max-width: 767px) {
+    #lander, #adjudicators {
+      background: url("./img/castlefridge.jpg") center no-repeat cover; }
+      #lander h1, #adjudicators h1 {
+        font-size: 2.5rem; } }
 
 #main {
   width: 80%;
@@ -146,8 +125,7 @@ body {
   margin: 3%;
   padding: 1%;
   position: relative;
-  top: 20%;
-}
+  top: 20%; }
 
 #aboutMain {
   width: 80%;
@@ -158,60 +136,44 @@ body {
   position: relative;
   top: 20%;
   display: flex;
-  flex-flow: row wrap;
-}
-@media screen and (max-width: 768px) {
-  #aboutMain #abouttext {
-    width: auto;
-  }
-}
-#aboutMain p {
-  margin: 2%;
-  padding: 1%;
-}
-#aboutMain #firstnight {
-  width: 40vw;
-  height: 54vw;
-}
-@media (max-width: 767px) {
+  flex-flow: row wrap; }
+  @media screen and (max-width: 768px) {
+    #aboutMain #abouttext {
+      width: auto; } }
+  #aboutMain p {
+    margin: 2%;
+    padding: 1%; }
   #aboutMain #firstnight {
-    order: -1;
-    width: 80vw;
-    height: 108vw;
-  }
-}
+    width: 40vw;
+    height: 54vw; }
+    @media (max-width: 767px) {
+      #aboutMain #firstnight {
+        order: -1;
+        width: 80vw;
+        height: 108vw; } }
 
 #videoMain {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  text-align: center;
-}
-@media screen and (max-width: 768px) {
-  #videoMain {
-    flex-flow: column;
-  }
-}
-#videoMain .videobox {
-  margin: 1%;
-}
-#videoMain .videobox h2 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  font-size: 1.5vw;
-}
-@media screen and (max-width: 768px) {
+  text-align: center; }
+  @media screen and (max-width: 768px) {
+    #videoMain {
+      flex-flow: column; } }
   #videoMain .videobox {
-    text-align: center;
-  }
-  #videoMain .videobox h2 {
-    font-size: 3.8vw;
-  }
-  #videoMain .videobox iframe {
-    width: 80vw;
-    height: auto;
-  }
-}
+    margin: 1%; }
+    #videoMain .videobox h2 {
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 300;
+      font-size: 1.5vw; }
+    @media screen and (max-width: 768px) {
+      #videoMain .videobox {
+        text-align: center; }
+        #videoMain .videobox h2 {
+          font-size: 3.8vw; }
+        #videoMain .videobox iframe {
+          width: 80vw;
+          height: auto; } }
 
 #moatmain {
   margin: auto;
@@ -225,28 +187,22 @@ body {
   font-weight: 400;
   color: white;
   padding: 2% 10%;
-  justify-content: space-around;
-}
-#moatmain #moattextbox {
-  background-color: rgba(251, 176, 64, 0.8);
-  padding: 2%;
-}
-#moatmain #moattextbox h1 {
-  font-weight: 400;
-}
-@media screen and (max-width: 768px) {
+  justify-content: space-around; }
   #moatmain #moattextbox {
-    width: auto;
-  }
-}
-#moatmain #scoop {
-  color: black;
-  background-color: white;
-  border: 3px solid gray;
-  position: sticky;
-  height: fit-content;
-  padding: 2%;
-}
+    background-color: rgba(251, 176, 64, 0.8);
+    padding: 2%; }
+    #moatmain #moattextbox h1 {
+      font-weight: 400; }
+    @media screen and (max-width: 768px) {
+      #moatmain #moattextbox {
+        width: auto; } }
+  #moatmain #scoop {
+    color: black;
+    background-color: white;
+    border: 3px solid gray;
+    position: sticky;
+    height: fit-content;
+    padding: 2%; }
 
 #landmain {
   margin: auto;
@@ -260,28 +216,22 @@ body {
   font-weight: 400;
   color: white;
   padding: 2% 10%;
-  justify-content: space-around;
-}
-#landmain #landtextbox {
-  background-color: rgba(10, 128, 24, 0.39);
-  padding: 2%;
-}
-#landmain #landtextbox h1 {
-  font-weight: 400;
-}
-@media screen and (max-width: 768px) {
+  justify-content: space-around; }
   #landmain #landtextbox {
-    width: auto;
-  }
-}
-#landmain #scoop {
-  color: black;
-  background-color: white;
-  border: 3px solid gray;
-  position: sticky;
-  height: fit-content;
-  padding: 2%;
-}
+    background-color: rgba(10, 128, 24, 0.39);
+    padding: 2%; }
+    #landmain #landtextbox h1 {
+      font-weight: 400; }
+    @media screen and (max-width: 768px) {
+      #landmain #landtextbox {
+        width: auto; } }
+  #landmain #scoop {
+    color: black;
+    background-color: white;
+    border: 3px solid gray;
+    position: sticky;
+    height: fit-content;
+    padding: 2%; }
 
 #watermain {
   margin: auto;
@@ -295,28 +245,22 @@ body {
   font-weight: 400;
   color: white;
   padding: 2% 10%;
-  justify-content: space-around;
-}
-#watermain #watertextbox {
-  background-color: rgba(14, 176, 239, 0.39);
-  padding: 2%;
-}
-#watermain #watertextbox h1 {
-  font-weight: 400;
-}
-@media screen and (max-width: 768px) {
+  justify-content: space-around; }
   #watermain #watertextbox {
-    width: auto;
-  }
-}
-#watermain #scoop {
-  color: black;
-  background-color: white;
-  border: 3px solid gray;
-  position: sticky;
-  height: fit-content;
-  padding: 2%;
-}
+    background-color: rgba(14, 176, 239, 0.39);
+    padding: 2%; }
+    #watermain #watertextbox h1 {
+      font-weight: 400; }
+    @media screen and (max-width: 768px) {
+      #watermain #watertextbox {
+        width: auto; } }
+  #watermain #scoop {
+    color: black;
+    background-color: white;
+    border: 3px solid gray;
+    position: sticky;
+    height: fit-content;
+    padding: 2%; }
 
 #airmain {
   margin: auto;
@@ -330,28 +274,22 @@ body {
   font-weight: 400;
   color: white;
   padding: 2% 10%;
-  justify-content: space-around;
-}
-#airmain #airtextbox {
-  background-color: #00000026;
-  padding: 2%;
-}
-#airmain #airtextbox h1 {
-  font-weight: 400;
-}
-@media screen and (max-width: 768px) {
+  justify-content: space-around; }
   #airmain #airtextbox {
-    width: auto;
-  }
-}
-#airmain #scoop {
-  color: black;
-  background-color: white;
-  border: 3px solid gray;
-  position: sticky;
-  height: fit-content;
-  padding: 2%;
-}
+    background-color: #00000026;
+    padding: 2%; }
+    #airmain #airtextbox h1 {
+      font-weight: 400; }
+    @media screen and (max-width: 768px) {
+      #airmain #airtextbox {
+        width: auto; } }
+  #airmain #scoop {
+    color: black;
+    background-color: white;
+    border: 3px solid gray;
+    position: sticky;
+    height: fit-content;
+    padding: 2%; }
 
 #firemain {
   margin: auto;
@@ -365,28 +303,22 @@ body {
   font-weight: 400;
   color: white;
   padding: 2% 10%;
-  justify-content: space-around;
-}
-#firemain #firetextbox {
-  background-color: #b222228c;
-  padding: 2%;
-}
-#firemain #firetextbox h1 {
-  font-weight: 400;
-}
-@media screen and (max-width: 768px) {
+  justify-content: space-around; }
   #firemain #firetextbox {
-    width: auto;
-  }
-}
-#firemain #scoop {
-  color: black;
-  background-color: white;
-  border: 3px solid gray;
-  position: sticky;
-  height: fit-content;
-  padding: 2%;
-}
+    background-color: #b222228c;
+    padding: 2%; }
+    #firemain #firetextbox h1 {
+      font-weight: 400; }
+    @media screen and (max-width: 768px) {
+      #firemain #firetextbox {
+        width: auto; } }
+  #firemain #scoop {
+    color: black;
+    background-color: white;
+    border: 3px solid gray;
+    position: sticky;
+    height: fit-content;
+    padding: 2%; }
 
 #cryptohood {
   display: flex;
@@ -394,103 +326,116 @@ body {
   text-align: center;
   align-items: center;
   width: 80%;
-  margin: auto;
-}
+  margin: auto; }
 
 #projects {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
-}
-#projects h1 {
-  text-align: center;
-  background-color: white;
-  border: 3px solid black;
-  margin: 3%;
-  padding: 1%;
-}
-#projects #plist {
-  display: flex;
-  flex-flow: row wrap;
-  width: 80%;
-  align-content: center;
-  justify-content: center;
-}
-#projects #plist a {
-  width: 15%;
-  height: auto;
-  margin: 2%;
-  font-size: 10vw;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-}
-#projects #plist a img {
-  width: 100%;
-}
+  align-items: center; }
+  #projects h1 {
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+    margin: 3%;
+    padding: 1%; }
+  #projects #plist {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    align-content: center;
+    justify-content: center; }
+    #projects #plist a {
+      width: 15%;
+      height: auto;
+      margin: 2%;
+      font-size: 10vw;
+      text-align: center;
+      text-decoration: none;
+      color: black; }
+      #projects #plist a img {
+        width: 100%; }
 
 #companies {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
-}
-#companies h1 {
-  text-align: center;
-  background-color: white;
-  border: 3px solid black;
-  margin: 3%;
-  padding: 1%;
-}
-#companies #clist {
-  display: flex;
-  flex-flow: row wrap;
-  width: 80%;
-  align-content: center;
-  justify-content: center;
-}
-#companies #clist a {
-  width: 15%;
-  height: auto;
-  margin: 2%;
-}
-#companies #clist a img {
-  width: 100%;
-}
+  align-items: center; }
+  #companies h1 {
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+    margin: 3%;
+    padding: 1%; }
+  #companies #clist {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    align-content: center;
+    justify-content: center; }
+    #companies #clist a {
+      width: 15%;
+      height: auto;
+      margin: 2%; }
+      #companies #clist a img {
+        width: 100%; }
 
 #press {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
-}
-#press h1 {
-  text-align: center;
-  background-color: white;
-  border: 3px solid black;
-  margin: 3%;
-  padding: 1%;
-}
-#press #plist {
-  display: flex;
-  flex-flow: row wrap;
-  width: 80%;
-  align-content: center;
-  justify-content: center;
-}
-#press #plist a {
-  width: 15%;
-  height: auto;
-  margin: 2%;
-}
-#press #plist a img {
-  width: 100%;
-}
+  align-items: center; }
+  #press h1 {
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+    margin: 3%;
+    padding: 1%; }
+  #press #plist {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    align-content: center;
+    justify-content: center; }
+    #press #plist a {
+      width: 15%;
+      height: auto;
+      margin: 2%; }
+      #press #plist a img {
+        width: 100%; }
+
+#adjudicators {
+  background: #fff; }
+  #adjudicators #ark {
+    display: grid;
+    grid-area: ark;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-areas: "repeat(30, z)" "z . repeat(12, bm) . repeat(12, ba)";
+    background: none;
+    background-color: #fbb040;
+    padding: 1.666vw;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 15px;
+    width: 50vw;
+    height: 30vw; }
+  #adjudicators .tablet {
+    width: 20vw;
+    height: 20vw;
+    background-color: #0F52BA;
+    color: #fff;
+    margin: 3%;
+    padding: 3%;
+    text-shadow: #4608ff 3px 3px 2px;
+    text-align: center;
+    font-family: sans-serif; }
+  #adjudicators #beinmakom {
+    grid-area: beinmakom; }
+  #adjudicators #beinadam {
+    grid-area: beinadam; }
 
 footer {
   border-top: 3px solid black;
   padding: 1%;
   text-align: center;
-  font-size: 1.2rem;
-}
+  font-size: 1.2rem; }
 
 /*grid-column-start:2;
 grid-template-columns: repeat(14, calc(100%/14));*/

@@ -2,7 +2,13 @@ html{
     box-sizing: border-box;
 }
 body{margin:0;}
-
+    
+#ccllogo{
+        width:30%;
+        @media (max-width: 767px){
+            width:58px;
+       }
+}
 @media only screen and (max-width: 680px) { 
     .desktop{ display: none;}
 }
@@ -78,6 +84,13 @@ body{margin:0;}
     -o-background-size: cover;
     background-size: cover;
     width: 100%;	
+    
+    #ccllogo{
+        width:30%;
+        @media (max-width: 767px){
+            width:58px;
+        }
+    }
 
     h1{
         position:relative;
@@ -258,7 +271,7 @@ body{margin:0;}
 
   #watertextbox{
     h1{font-weight:400;}
-    background-color:rgb(14 176 239 / 39%);
+    background-color:rgba(14, 176, 239, 39%);
     padding:2%;
     @media screen and (max-width: 768px) {
         width:auto;
@@ -422,6 +435,42 @@ body{margin:0;}
             margin: 2%;
             img{width: 100%;}}
     }
+}
+#adjudicators{
+    @extend #lander;
+    background: #fff;
+    #ark{display: grid;
+        grid-area: ark; 
+        grid-template-columns: repeat(30, 1fr); 
+        grid-template-areas: 
+            "repeat(30, z)"
+            "z . repeat(12, bm) . repeat(12, ba)";
+        background: none;
+        background-color: #fbb040;
+        padding: 1.666vw; 
+        display: grid; 
+        column-gap: 10px;
+        row-gap: 15px;
+        width:50vw;
+        height:30vw;}
+    .tablet{
+        width: 20vw;
+        height: 20vw;
+        background-color: #0F52BA;
+        color:#fff;
+        margin: 3%;
+        padding: 3%;
+        text-shadow: #4608ff 3px 3px 2px;
+        text-align: center;
+        font-family: sans-serif;
+        }
+    #beinmakom{
+        grid-area: beinmakom;
+    }
+    #beinadam{
+        grid-area: beinadam;
+    }
+
 }
 footer{
 	border-top:3px solid black; 
