@@ -129,6 +129,12 @@ body{margin:0;}
         }
         	
 }
+#firstnationslander{
+    a{
+        display: block;background-color: blue;color:#fff;padding: 1%;border-radius: 6%;box-shadow: 3px 3px 6px #0f0f0f;margin: 2%;
+        &:hover{box-shadow: 7px 7px 8px #f8f1f1;}
+    }
+}
 #main{
 	width:80%;
 	margin:auto;

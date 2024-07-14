@@ -117,6 +117,17 @@ body {
       #lander h1, #adjudicators h1 {
         font-size: 2.5rem; } }
 
+#firstnationslander a {
+  display: block;
+  background-color: blue;
+  color: #fff;
+  padding: 1%;
+  border-radius: 6%;
+  box-shadow: 3px 3px 6px #0f0f0f;
+  margin: 2%; }
+  #firstnationslander a:hover {
+    box-shadow: 7px 7px 8px #f8f1f1; }
+
 #main {
   width: 80%;
   margin: auto;
