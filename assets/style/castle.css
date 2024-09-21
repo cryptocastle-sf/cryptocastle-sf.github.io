@@ -69,7 +69,7 @@ body {
       width: auto;
       align-items: center; } }
 
-#lander, #adjudicators {
+#lander, #congresslander, #adjudicators {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -80,12 +80,12 @@ body {
   -o-background-size: cover;
   background-size: cover;
   width: 100%; }
-  #lander #ccllogo, #adjudicators #ccllogo {
+  #lander #ccllogo, #congresslander #ccllogo, #adjudicators #ccllogo {
     width: 30%; }
     @media (max-width: 767px) {
-      #lander #ccllogo, #adjudicators #ccllogo {
+      #lander #ccllogo, #congresslander #ccllogo, #adjudicators #ccllogo {
         width: 58px; } }
-  #lander h1, #adjudicators h1 {
+  #lander h1, #congresslander h1, #adjudicators h1 {
     position: relative;
     top: 20%;
     text-align: center;
@@ -99,9 +99,9 @@ body {
     border: 2px solid black;
     font-weight: 300; }
     @media (max-width: 767px) {
-      #lander h1, #adjudicators h1 {
+      #lander h1, #congresslander h1, #adjudicators h1 {
         font-size: 30px; } }
-  #lander h2, #adjudicators h2 {
+  #lander h2, #congresslander h2, #adjudicators h2 {
     background-color: white;
     border: 3px solid black;
     margin: 3%;
@@ -109,13 +109,19 @@ body {
     position: relative;
     top: 20%; }
     @media (max-width: 767px) {
-      #lander h2, #adjudicators h2 {
+      #lander h2, #congresslander h2, #adjudicators h2 {
         font-size: 1.02rem; } }
   @media (max-width: 767px) {
-    #lander, #adjudicators {
+    #lander, #congresslander, #adjudicators {
       background: url("./img/castlefridge.jpg") center no-repeat cover; }
-      #lander h1, #adjudicators h1 {
+      #lander h1, #congresslander h1, #adjudicators h1 {
         font-size: 2.5rem; } }
+
+#congresslander {
+  background: url("../img/coastanoangate.jpg") fixed no-repeat center center/cover; }
+
+#firstorder {
+  background: url("../img/alkatraz.jpg") fixed no-repeat center center/cover; }
 
 #firstnationslander a {
   display: block;
@@ -338,6 +344,13 @@ body {
   align-items: center;
   width: 80%;
   margin: auto; }
+
+.fncpanel {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  border-bottom: 3px solid black;
+  font-size: 4vw; }
 
 #projects {
   display: flex;

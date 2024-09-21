@@ -129,6 +129,13 @@ body{margin:0;}
         }
         	
 }
+#congresslander{@extend #lander;
+    background: url("../img/coastanoangate.jpg") fixed no-repeat center center/cover;
+}
+#firstorder{
+    background: url("../img/alkatraz.jpg") fixed no-repeat center center/cover;
+    
+}
 #firstnationslander{
     a{
         display: block;background-color: blue;color:#fff;padding: 1%;border-radius: 6%;box-shadow: 3px 3px 6px #0f0f0f;margin: 2%;
@@ -364,6 +371,15 @@ body{margin:0;}
     width:80%;
     margin:auto;
 }
+
+.fncpanel{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:center;
+    border-bottom:3px solid black;
+    font-size:4vw;
+}
+
 #projects{
     display: flex;
     flex-flow: column nowrap;
