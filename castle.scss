@@ -379,7 +379,16 @@ body{margin:0;}
     border-bottom:3px solid black;
     font-size:4vw;
 }
-
+#philosophy{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:center;
+    h1{text-align: center;
+        background-color: white;
+        border:3px solid black;
+        margin: 3%;
+        padding:1%;}
+}
 #projects{
     display: flex;
     flex-flow: column nowrap;
