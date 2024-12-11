@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+
+<svg
+   height="800px"
+   width="800px"
+   version="1.1"
+   id="Layer_1"
+   viewBox="0 0 512.25 512.25"
+   xml:space="preserve"
+   fill="#000000"
+   transform="rotate(90)"
+   stroke="#000000"
+   sodipodi:docname="scroll.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs7" /><sodipodi:namedview
+   id="namedview7"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.295"
+   inkscape:cx="398.30508"
+   inkscape:cy="400"
+   inkscape:window-width="1312"
+   inkscape:window-height="449"
+   inkscape:window-x="0"
+   inkscape:window-y="25"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="g7" />
+
+<g
+   id="SVGRepo_bgCarrier"
+   stroke-width="0" />
+
+<g
+   id="SVGRepo_tracerCarrier"
+   stroke-linecap="round"
+   stroke-linejoin="round" />
+
+<g
+   id="SVGRepo_iconCarrier"
+   transform="matrix(0.83584347,0.60397064,-0.60397064,0.83584347,194.51789,-118.3933)"> <g
+   id="g7"> <g
+   id="g1"
+   transform="matrix(0.313945,-0.94944117,-0.94944117,-0.313945,414.11396,573.09813)"> <path
+   style="fill:#ffebb7"
+   d="m 495.68,184.07 c -1.281,-3.25 -4.578,-5.188 -7.984,-5.055 -153.578,10.328 -309.344,10.328 -462.922,0 -3.789,-0.148 -7.023,2.047 -8.156,5.531 -5.484,17.008 -8.383,34.453 -8.383,50.453 0,4.422 3.578,8 8,8 h 480 c 4.422,0 8,-3.578 8,-8 0,-14.445 -1.016,-31.788 -8.555,-50.929 z"
+   id="path1" /> </g> <g
+   id="g2"
+   transform="matrix(0.313945,-0.94944117,-0.94944117,-0.313945,414.11396,573.09813)"> <path
+   style="fill:#e6be94"
+   d="M 511.993,234.367 C 511.665,230.211 508.188,227 504.016,227 H 296.454 c -4.422,0 -8,3.578 -8,8 h -64.219 c 0,-4.422 -3.578,-8 -8,-8 h -208 c -4.172,0 -7.641,3.203 -7.977,7.367 -0.141,1.805 -3.281,44.703 16.844,84.258 1.375,2.695 4.141,4.375 7.133,4.375 0.18,0 0.359,-0.008 0.539,-0.016 62.016,-4.172 124.82,-6.688 186.625,-7.484 l 36.844,-0.289 52.789,0.289 c 61.828,0.797 124.617,3.313 186.609,7.477 3.961,0.328 7.383,-2.32 8.336,-5.945 19.203,-39.103 16.156,-80.884 16.016,-82.665 z"
+   id="path2" /> </g>  <g
+   id="g4"
+   transform="matrix(0.46122907,-0.74953801,-0.74953801,-0.0344598,312.00736,431.88573)"> <path
+   style="fill:#e3001e"
+   d="m 263.846,261.852 c -4.063,-1.68 -8.766,0.25 -10.453,4.328 l -0.208,0.503 -15.304,-5.158 c 1.318,-3.953 -0.531,-8.301 -4.433,-9.916 -4.055,-1.688 -8.766,0.242 -10.453,4.328 l -22.367,54 c -1.242,2.992 -0.555,6.43 1.734,8.719 2.297,2.297 5.734,2.992 8.719,1.734 l 13.516,-5.602 5.602,13.516 c 1.242,2.992 4.156,4.938 7.391,4.938 3.235,0 6.156,-1.953 7.391,-4.938 l 23.195,-56 c 1.686,-4.084 -0.252,-8.764 -4.33,-10.452 z"
+   id="path4" /> </g> <g
+   id="g5"
+   transform="matrix(0.20494802,-0.61980948,-0.61980948,-0.20494802,354.71717,449.37226)"> <circle
+   style="fill:#ff4f19"
+   cx="256.23499"
+   cy="235"
+   r="48"
+   id="circle4" /> </g>  </g> </g>
+
+</svg>
