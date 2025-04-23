@@ -1,7 +1,8 @@
 html{
     box-sizing: border-box;
+    height: 100%;
 }
-body{margin:0;}
+body{margin:0; height:100%;}
     
 #ccllogo{
         width:30%;
@@ -507,7 +508,22 @@ footer{
 	border-top:3px solid black; 
 	padding:1%;
 	text-align: center;
-	font-size: 1.2rem;}
+	font-size: 1.2rem;
+    overflow: hidden;
+    #love{
+        
+        position:static;
+        overflow: hidden;
+        z-index:12;
+        opacity: 0;
+        height: 0%;
+        transition: all .2s ease-in-out;
+        -webkit-transition:all .2s ease-in-out;
 
+        a{color:#000; height: 0%; margin:3%; };}
+    
+}
+
+footer:hover > #love{   position:static; display: block; padding:1%; opacity:100; transform:translateY(-100%); background-color:#fff; ; animation-timing-function: cubic-bezier(.4,0,.2,1); animation-duration: 3s; transition-timing-function: cubic-bezier(.4,0,.2,1);}
 /*grid-column-start:2;
 grid-template-columns: repeat(14, calc(100%/14));*/
